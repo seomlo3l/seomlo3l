@@ -9,11 +9,6 @@ int ledL = 10;
 Bounce debouncerR = Bounce();
 Bounce debouncerL = Bounce();
 
-bool ledstate = LOW;
-
-int butR_state=HIGH;
-int butL_state=HIGH;
-
 
 void setup() {
   pinMode(butR, INPUT_PULLUP);
